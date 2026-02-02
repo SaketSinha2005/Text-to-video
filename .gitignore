@@ -1,4 +1,18 @@
+# Virtual environment
 .venv/
+
+# Data and outputs
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Model files
+models/*
+!models/.gitkeep
+
+# Python cache
 __pycache__/
+*.pyc
 
 .idea/
