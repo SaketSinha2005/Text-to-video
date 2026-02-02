@@ -1,6 +1,6 @@
 import cv2
 
-def loadvideo(path):
+def load_video(path):
     vidcap = cv2.VideoCapture(path)
     frames = []
 
